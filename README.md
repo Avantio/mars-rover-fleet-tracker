@@ -2,7 +2,7 @@
 
 The Mars Rover Fleet Tracker Service is a robust and efficient tracking system designed to monitor and manage our fleet of Mars rovers. This service plays a crucial role ensuring the successful exploration of the Martian terrain.
 
-Now seriously... This is a simple app which only purpose it to simulate the behaviour of a productive app. It has:
+Now seriously... This is a simple app which only purpose it to simulate the behaviour of a live app. It has:
 - `/` dummy endpoint which returns a static message.
 - `/health` a health endpoint which returns `{ status: 'UP' }` in case everything is right.
 - `/metrics` endpoing is used to expose the randomly generated metrics in Prometheus format (updated every second).
